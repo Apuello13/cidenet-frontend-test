@@ -1,0 +1,88 @@
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--family);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: var(--black);
+}
+
+main {
+  background: var(--white);
+  border-radius: 0.3rem;
+  padding: 1rem 1.5rem;
+  height: auto;
+  width: 60rem;
+  margin-top: 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  margin-top: 1rem;
+}
+
+.icon-white {
+  fill: var(--white) !important;
+}
+
+footer span {
+  margin: 0 0.3rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid var(--black);
+  outline: none;
+}
+
+.active {
+  color: var(--success);
+}
+.text-danger .icon {
+  margin-left: 0.4rem;
+}
+
+.icon-danger {
+  fill: var(--red);
+}
+
+.icon-primary {
+  fill: var(--orange);
+}
+
+.container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icon-success {
+  fill: var(--success);
+}
+
+.inactive {
+  color: var(--red);
+}
+
+.btn:disabled {
+  border: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
